@@ -14,9 +14,9 @@
 
       <ul>
         <transition-group name="list" enter-active-class="animated bounceInUp" leave-active-class="animated bounceOutDown">
-          <li v-for="item in skills" :key="item.id">
-            {{ item.skill }}
-            <i class="fa fa-minus-circle" @click="remove(item.id)" />
+          <li v-for="(data, index) in skills" :key="index">
+            {{ data.skill }}
+            <i class="fa fa-minus-circle" @click="remove(index)" />
           </li>
         </transition-group>
       </ul>
