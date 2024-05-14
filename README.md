@@ -69,6 +69,20 @@ Nuxt tự động tạo cấu hình `vue-router` dựa trên các tệp trong th
 
 ## III. Hướng dẫn chạy code môi trường dev
 
+**Bước 0 (optional):** Cài node và package manager
+
+- Cài `nodejs`
+
+```shell
+sudo apt install -y nodejs
+```
+
+- Cài `yarn`
+
+```shell
+npm install --global yarn
+```
+
 - Version node và package manager sử dụng trên local:
   - **Nodejs:** 21.7.3
   - **Yarn:** 1.22.22
